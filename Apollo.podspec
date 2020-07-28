@@ -39,7 +39,6 @@ Pod::Spec.new do |s|
   s.subspec 'SQLiteCipher' do |ss|
     ss.source_files = 'Sources/ApolloSQLite/*.swift'
     ss.dependency 'Apollo/Core'
-    ss.dependency 'SQLCipher', '~>4.4.0'
     ss.dependency 'SQLite.swift/SQLCipher', '> 0.12.0'
   end
 
